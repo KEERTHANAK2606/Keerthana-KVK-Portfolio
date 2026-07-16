@@ -16,7 +16,7 @@
 Welcome to my personal portfolio website.
 
 This portfolio showcases my:
-My Portfolio Link:https://keerthanak2606.github.io/Keerthana-KVK-Portfolio/ done
+My Portfolio Link:https://keerthanak2606.github.io/Keerthana-KVK-Portfolio/ 
 - 💻 Software Development Projects
 - 🤖 IoT Applications
 - 🧠 Generative AI Projects
