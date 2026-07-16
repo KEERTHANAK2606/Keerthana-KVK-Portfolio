@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keerthana K | Software Developer & IoT Engineer</title>
+<meta name="description" content="Portfolio of Keerthana K — BE CSE (IoT) student, Java developer, IoT builder, and Generative AI enthusiast.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- AOS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-ring"></div>
+    <div class="loader-text">KK</div>
+  </div>
+</div>
+
+<!-- Custom Cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-outline" id="cursorOutline"></div>
+
+<!-- Particle Background -->
+<canvas id="particles"></canvas>
+
+<!-- Navbar -->
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="#hero" class="logo">KK<span class="dot">.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#internship" class="nav-link">Internship</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-content">
+    <p class="hero-eyebrow" data-aos="fade-up">Hello, I'm</p>
+    <h1 class="hero-name gradient-text" data-aos="fade-up" data-aos-delay="100">Keerthana K</h1>
+    <h2 class="hero-role" data-aos="fade-up" data-aos-delay="200">
+      <span id="typed"></span><span class="cursor-blink">|</span>
+    </h2>
+    <p class="hero-desc" data-aos="fade-up" data-aos-delay="300">
+      BE CSE (IoT) student building at the intersection of embedded systems, clean UI/UX and Generative AI —
+      solving real problems with Java, Arduino, and modern AI tooling.
+    </p>
+    <div class="hero-btns" data-aos="fade-up" data-aos-delay="400">
+      <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-diagram-project"></i> View Projects</a>
+      <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+    </div>
+    <div class="hero-socials" data-aos="fade-up" data-aos-delay="500">
+      <a href="https://github.com/KEERTHANAK2606" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/keerthana-kannan-24b9902a2" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:keerthanavk69@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:+919751464854" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+    </div>
+  </div>
+
+  <div class="hero-card floating" data-aos="fade-left" data-aos-delay="200">
+    <div class="glass-card profile-card">
+      <div class="profile-ring">
+        <div class="profile-avatar">KK</div>
+      </div>
+      <h3>Keerthana K</h3>
+      <p class="profile-tag">CSE (IoT) · Erode</p>
+      <div class="profile-stats">
+        <div class="stat">
+          <span class="counter" data-target="150">0</span>+
+          <p>LeetCode Solved</p>
+        </div>
+        <div class="stat">
+          <span class="counter" data-target="9" data-decimal="27">0</span>
+          <p>CGPA</p>
+        </div>
+        <div class="stat">
+          <span class="counter" data-target="3">0</span>+
+          <p>Projects</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-head" data-aos="fade-up">
+    <p class="section-eyebrow">01 · About</p>
+    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text" data-aos="fade-right">
+      <p>
+        I'm a Computer Science (IoT) undergraduate at <strong>Nandha Engineering College</strong>, driven by a strong
+        foundation in Java, data structures &amp; algorithms, and UI/UX design. I love turning ideas into working
+        prototypes — whether that's an Arduino circuit sensing the world, or a Generative AI assistant answering
+        real questions.
+      </p>
+      <p>
+        Currently, I'm sharpening my skills in <strong>Generative AI</strong> and modern software engineering practices,
+        while staying rooted in the fundamentals of embedded systems and problem solving. I thrive on bridging
+        hardware and software, logic and design.
+      </p>
+      <div class="about-info">
+        <div class="info-item"><i class="fa-solid fa-location-dot"></i> Ooty, Tamil Nadu</div>
+        <div class="info-item"><i class="fa-solid fa-graduation-cap"></i> BE CSE (IoT), 2023–2027</div>
+        <div class="info-item"><i class="fa-solid fa-envelope"></i> keerthanavk69@gmail.com</div>
+        <div class="info-item"><i class="fa-solid fa-phone"></i> +91 97514 64854</div>
+      </div>
+    </div>
+    <div class="about-cards" data-aos="fade-left">
+      <div class="glass-card mini-card">
+        <i class="fa-solid fa-code"></i>
+        <h4>Problem Solver</h4>
+        <p>150+ DSA problems solved in Java on LeetCode.</p>
+      </div>
+      <div class="glass-card mini-card">
+        <i class="fa-solid fa-microchip"></i>
+        <h4>IoT Builder</h4>
+        <p>Hands-on with Arduino, sensors &amp; embedded systems.</p>
+      </div>
+      <div class="glass-card mini-card">
+        <i class="fa-solid fa-robot"></i>
+        <h4>GenAI Explorer</h4>
+        <p>Building RAG-based AI assistants with LangChain.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-head" data-aos="fade-up">
+    <p class="section-eyebrow">02 · Skills</p>
+    <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+  </div>
+
+  <div class="skills-wrap">
+    <div class="skills-col" data-aos="fade-up">
+      <h3><i class="fa-solid fa-laptop-code"></i> Technical Skills</h3>
+      <div class="skill-bar">
+        <div class="skill-label"><span>Java</span><span>80%</span></div>
+        <div class="bar"><div class="bar-fill" data-width="90"></div></div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-label"><span>Data Structures &amp; Algorithms</span><span>65%</span></div>
+        <div class="bar"><div class="bar-fill" data-width="88"></div></div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-label"><span>HTML &amp; CSS</span><span>85%</span></div>
+        <div class="bar"><div class="bar-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-label"><span>Arduino &amp; IoT Fundamentals</span><span>80%</span></div>
+        <div class="bar"><div class="bar-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-label"><span>UI/UX Design (Figma, Balsamiq)</span><span>80%</span></div>
+        <div class="bar"><div class="bar-fill" data-width="80"></div></div>
+      </div>
+    </div>
+
+    <div class="skills-col" data-aos="fade-up" data-aos-delay="150">
+      <h3><i class="fa-solid fa-people-group"></i> Soft Skills</h3>
+      <div class="tag-cloud">
+        <span class="tag"><i class="fa-solid fa-puzzle-piece"></i> Problem Solving</span>
+        <span class="tag"><i class="fa-solid fa-comments"></i> Communication</span>
+        <span class="tag"><i class="fa-solid fa-users"></i> Teamwork</span>
+        <span class="tag"><i class="fa-solid fa-crown"></i> Leadership</span>
+        <span class="tag"><i class="fa-solid fa-clock"></i> Time Management</span>
+      </div>
+
+      <h3 class="tools-heading"><i class="fa-solid fa-toolbox"></i> Tools</h3>
+      <div class="tools-grid">
+        <div class="tool-chip"><i class="fa-brands fa-figma"></i> Figma</div>
+        <div class="tool-chip"><i class="fa-solid fa-pen-ruler"></i> Balsamiq</div>
+        <div class="tool-chip"><i class="fa-solid fa-wand-magic-sparkles"></i> Adobe Express</div>
+        <div class="tool-chip"><i class="fa-solid fa-palette"></i> Canva</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERNSHIP -->
+<section id="internship">
+  <div class="section-head" data-aos="fade-up">
+    <p class="section-eyebrow">03 · Experience</p>
+    <h2 class="section-title">Internship <span class="gradient-text">Experience</span></h2>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item" data-aos="fade-up">
+      <div class="timeline-dot"></div>
+      <div class="glass-card timeline-card">
+        <div class="timeline-top">
+          <h3>IoT Intern</h3>
+          <span class="timeline-date">June – July 2025</span>
+        </div>
+        <p class="timeline-company"><i class="fa-solid fa-building"></i> Nandha Infotech, Coimbatore</p>
+        <p class="timeline-focus">Focus: Arduino · Sensors · Embedded Systems</p>
+        <ul>
+          <li>Built a Smart Home Automation prototype using Arduino, sensors, and relay modules.</li>
+          <li>Integrated sensors and relay modules to automate appliance control using Arduino.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-head" data-aos="fade-up">
+    <p class="section-eyebrow">04 · Work</p>
+    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+  </div>
+
+  <div class="projects-grid">
+    <div class="tilt-card" data-aos="fade-up">
+      <div class="glass-card project-card">
+        <div class="project-icon"><i class="fa-solid fa-eye-low-vision"></i></div>
+        <h3>Third Eye for the Blind</h3>
+        <p class="project-type">Interdisciplinary Project</p>
+        <p class="project-desc">
+          An Arduino-based assistive device that detects obstacles for visually impaired users, using ultrasonic
+          sensors and a buzzer to deliver real-time audio alerts, enhancing independent mobility and safety.
+        </p>
+        <div class="badges">
+          <span class="badge">Arduino</span>
+          <span class="badge">Ultrasonic Sensor</span>
+          <span class="badge">Embedded C</span>
+          <span class="badge">IoT</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tilt-card" data-aos="fade-up" data-aos-delay="150">
+      <div class="glass-card project-card">
+        <div class="project-icon"><i class="fa-solid fa-brain"></i></div>
+        <h3>RAG-Based Intelligent College Information Assistant</h3>
+        <p class="project-type">Ongoing Project · Generative AI</p>
+        <p class="project-desc">
+          An AI-powered chatbot answering college-related queries using Retrieval-Augmented Generation, with
+          semantic search over official documents to deliver accurate, context-aware, source-cited answers.
+        </p>
+        <div class="badges">
+          <span class="badge">Python</span>
+          <span class="badge">LangChain</span>
+          <span class="badge">Google Gemini API</span>
+          <span class="badge">FAISS</span>
+          <span class="badge">Streamlit</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tilt-card" data-aos="fade-up" data-aos-delay="300">
+      <div class="glass-card project-card">
+        <div class="project-icon"><i class="fa-solid fa-code-branch"></i></div>
+        <h3>LeetCode Problem-Solving Journey</h3>
+        <p class="project-type">Continuous Practice</p>
+        <p class="project-desc">
+          Solved 150+ data structures and algorithms problems in Java, building strong fundamentals in
+          problem decomposition, complexity analysis, and clean coding practices.
+        </p>
+        <div class="badges">
+          <span class="badge">Java</span>
+          <span class="badge">DSA</span>
+          <span class="badge">Problem Solving</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-head" data-aos="fade-up">
+    <p class="section-eyebrow">05 · Academics</p>
+    <h2 class="section-title">Education <span class="gradient-text">Timeline</span></h2>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item" data-aos="fade-right">
+      <div class="timeline-dot"></div>
+      <div class="glass-card timeline-card">
+        <div class="timeline-top">
+          <h3>BE CSE (IoT)</h3>
+          <span class="timeline-date">2023 – 2027</span>
+        </div>
+        <p class="timeline-company"><i class="fa-solid fa-school"></i> Nandha Engineering College, Erode</p>
+        <p class="timeline-focus">CGPA: <strong>9.27</strong></p>
+      </div>
+    </div>
+    <div class="timeline-item" data-aos="fade-right" data-aos-delay="150">
+      <div class="timeline-dot"></div>
+      <div class="glass-card timeline-card">
+        <div class="timeline-top">
+          <h3>Higher Secondary Certificate</h3>
+          <span class="timeline-date">2022 – 2023</span>
+        </div>
+        <p class="timeline-company"><i class="fa-solid fa-school"></i> Bethlehem Girls Higher Secondary School, Ooty</p>
+        <p class="timeline-focus">Percentage: <strong>77%</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <div class="section-head" data-aos="fade-up">
+    <p class="section-eyebrow">06 · Recognition</p>
+    <h2 class="section-title">Achievements &amp; <span class="gradient-text">Roles</span></h2>
+  </div>
+  <div class="achieve-grid">
+    <div class="glass-card achieve-card" data-aos="zoom-in">
+      <div class="achieve-icon"><i class="fa-solid fa-handshake"></i></div>
+      <span class="counter" data-target="3">0</span>
+      <p class="achieve-label">Years as Student Placement Coordinator</p>
+      <p class="achieve-desc">2023–2026 · Bridged communication between the placement cell and students.</p>
+    </div>
+    <div class="glass-card achieve-card" data-aos="zoom-in" data-aos-delay="150">
+      <div class="achieve-icon"><i class="fa-solid fa-code"></i></div>
+      <span class="counter" data-target="150">0</span>+
+      <p class="achieve-label">LeetCode Problems Solved</p>
+      <p class="achieve-desc">Strong problem-solving and DSA proficiency in Java.</p>
+    </div>
+    <div class="glass-card achieve-card" data-aos="zoom-in" data-aos-delay="300">
+      <div class="achieve-icon"><i class="fa-solid fa-star"></i></div>
+      <span class="counter" data-target="9" data-decimal="27">0</span>
+      <p class="achieve-label">CGPA out of 10</p>
+      <p class="achieve-desc">Consistent academic excellence in BE CSE (IoT).</p>
+    </div>
+  </div>
+</section>
+
+<!-- LEETCODE -->
+<section id="leetcode">
+  <div class="glass-card leetcode-banner" data-aos="fade-up">
+    <div class="leetcode-left">
+      <i class="fa-solid fa-terminal leetcode-icon"></i>
+      <div>
+        <h3>LeetCode Profile</h3>
+        <p>150+ problems solved · Strengthening Java &amp; DSA fundamentals daily.</p>
+      </div>
+    </div>
+    <a href="https://leetcode.com/u/K_KEERTHANA_/" target="_blank" class="btn btn-primary">
+      <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Profile
+    </a>
+  </div>
+</section>
+<!-- SOCIAL LINKS -->
+<section id="socials">
+  <div class="section-head" data-aos="fade-up">
+    <p class="section-eyebrow">07 · Connect</p>
+    <h2 class="section-title">
+      Find Me <span class="gradient-text">Online</span>
+    </h2>
+  </div>
+
+  <div class="achieve-grid">
+
+    <a href="https://github.com/KEERTHANAK2606"
+       target="_blank"
+       class="glass-card achieve-card">
+
+      <div class="achieve-icon">
+        <i class="fa-brands fa-github"></i>
+      </div>
+
+      <h3>GitHub</h3>
+      <p>Explore my projects, repositories, and coding journey.</p>
+    </a>
+
+    <a href="https://www.linkedin.com/in/keerthana-kannan-24b9902a2"
+       target="_blank"
+       class="glass-card achieve-card">
+
+      <div class="achieve-icon">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+
+      <h3>LinkedIn</h3>
+      <p>Connect with me professionally and view my career updates.</p>
+    </a>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-head" data-aos="fade-up">
+    <p class="section-eyebrow">07 · Get In Touch</p>
+    <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info" data-aos="fade-right">
+      <p class="contact-lead">
+        I'm open to internships, collaborations, and opportunities in software development, IoT, and AI.
+        Reach out — I'd love to hear from you.
+      </p>
+      <a href="mailto:keerthanavk69@gmail.com" class="contact-line">
+        <i class="fa-solid fa-envelope"></i> keerthanavk69@gmail.com
+      </a>
+      <a href="tel:+919751464854" class="contact-line">
+        <i class="fa-solid fa-phone"></i> +91 97514 64854
+      </a>
+      <div class="contact-line">
+        <i class="fa-solid fa-location-dot"></i> Ooty, Tamil Nadu, India
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/KEERTHANAK2606" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/keerthana-kannan-24b9902a2" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+    <form class="contact-form glass-card" data-aos="fade-left" id="contactForm">
+      <div class="form-row">
+        <input type="text" placeholder="Your Name" required>
+      </div>
+      <div class="form-row">
+        <input type="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-row">
+        <input type="text" placeholder="Subject" required>
+      </div>
+      <div class="form-row">
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary full-width">
+        <i class="fa-solid fa-paper-plane"></i> Send Message
+      </button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Designed &amp; built by <span class="gradient-text">Keerthana K</span> — Crafted with curiosity for code, circuits &amp; AI.</p>
+  <p class="footer-year">&copy; <span id="year"></span> Keerthana K. All rights reserved.</p>
+</footer>
+
+<!-- Back to top -->
+<button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
